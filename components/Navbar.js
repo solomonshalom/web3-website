@@ -21,7 +21,7 @@ export default function Navbar({ preferedColorScheme }) {
                       width="40px"
                     />
                     <span className="hidden sm:block cursor-pointer font-poppins-bold text-xl">
-                      Women Build Web3
+                      Tech3
                     </span>
                   </a>
                 </Link>
@@ -37,7 +37,7 @@ export default function Navbar({ preferedColorScheme }) {
                       width="40px"
                     />
                     <span className="hidden sm:block cursor-pointer font-poppins-bold text-xl">
-                      Women Build Web3
+                      Tech3
                     </span>
                   </a>
                 </Link>

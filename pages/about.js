@@ -21,7 +21,7 @@ export default function About() {
   return (
     <Layout>
       <Head>
-        <title>About | Women Build Web3</title>
+        <title>About | Tech3</title>
         <meta
           name="description"
           content="Providing education, oppportunities, and funding to a new wave of web3 builders"

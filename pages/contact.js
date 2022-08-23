@@ -86,7 +86,7 @@ export default function Contact() {
   return (
     <Layout>
       <Head>
-        <title>Contact | Women Build Web3</title>
+        <title>Contact | Tech3</title>
         <meta
           name="description"
           content="Contact WBW3. Providing education, oppportunities, and funding to a new wave of web3 builders"

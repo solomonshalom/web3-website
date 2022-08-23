@@ -7,7 +7,7 @@ export default function Footer({ preferedColorScheme }) {
       <hr className="mb-12 sm:mb-16 border-t border-black dark:border-white border-solid" />
       <div className="grid md:grid-cols-2">
         <div className="mb-8 max-w-sm">
-          <h5 className="mb-2 text-2xl font-poppins-bold">Women Build Web3</h5>
+          <h5 className="mb-2 text-2xl font-poppins-bold">Tech3</h5>
           <p className="mb-6 text-base leading-relaxed">
             Subscribe to our newsletter to get our latest news, blog posts,
             events, and more.
