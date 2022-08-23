@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>Women Build Web3</title>
+        <title>Tech3/title>
         <meta
           name="description"
           content="Providing education, oppportunities, and funding to a new wave of web3 builders"
@@ -38,7 +38,7 @@ export default function Home() {
         <div className="flex mb-4">
           <div className="w-full md:w-1/2">
             <h1 className="font-poppins-bold text-3xl md:text-4xl lg:text-5xl xl:text-6xl leading-tight">
-             Accelerator for women-led engineering projects
+             Accelerator for web3 engineering projects
             </h1>
           </div>
         </div>
@@ -46,13 +46,13 @@ export default function Home() {
           <div className="w-full sm:w-8/12 md:w-1/2 flex">
             <div className="block max-w-xl">
               <p className="text-lg md:text-xl lg:text-2xl xl:text-3xl leading-normal xl:leading-normal mb-6 md:mb-8">
-                Unlocking the next wave of web3 builders through education,
+                Unlocking and creating the next wave of web3 builders through education,
                 opportunities, and funding.
               </p>
               <a
                 className="dark:hover:text-black dark:hover:bg-white hover:text-white hover:bg-black border border-black dark:border-white border-solid rounded-full text-base md:text-lg lg:text-xl px-4 py-2"
                 target="_blank"
-                href="https://discord.gg/z63rfurXMD"
+                href="https://discord.gg/2897gHgD6t"
                 rel="noopener noreferrer"
               >
                 Join us
@@ -65,16 +65,15 @@ export default function Home() {
       <section className="mb-44 grid md:grid-cols-2 gap-16">
         <div>
           <p className="text-base md:text-lg lg:text-xl leading-relaxed md:leading-relaxed lg:leading-relaxed mb-6 md:mb-8">
-            <strong className="font-poppins-semi-bold">Women Build Web3</strong>{" "}
-            is a global collective of women and non-binary developers learning
-            and building in web3. We help developers unlock their potential by
+            <strong className="font-poppins-semi-bold">Tech3</strong>{" "}
+            is a startup from india by Solomon Shalom Lijo and Dane Kurian specializing in web3. We help developers unlock their potential by
             providing education, opportunities, and funding and connecting them
-            with a network of peers.
+            with a network of peers. We also help clients achieve their goals and make them the legends they are!
           </p>
           <a
             className="dark:hover:text-black dark:hover:bg-white hover:text-white hover:bg-black border border-black dark:border-white border-solid rounded-full text-base md:text-lg lg:text-xl px-4 py-2"
             target="_blank"
-            href="https://discord.gg/z63rfurXMD"
+            href="https://discord.gg/2897gHgD6t"
             rel="noopener noreferrer"
           >
             Join us
@@ -107,7 +106,14 @@ export default function Home() {
             &#127793; Funding
           </h3>
           <p className="text-base md:text-lg lg:text-xl leading-relaxed md:leading-relaxed lg:leading-relaxed">
-            Funding for active participation, contributions, and projects
+            Funding for active participation, contributions, and projects based on Web3
+          </p>
+           <hr className="my-8 border-t border-black dark:border-white border-solid" />
+          <h3 className="mb-4 text-xl md:text-2xl font-poppins-bold">
+            &#127793; Client-Work
+          </h3>
+          <p className="text-base md:text-lg lg:text-xl leading-relaxed md:leading-relaxed lg:leading-relaxed">
+            We help in building, growing and maintaining your projects - no matter how big or complex your requets are, we always deliver
           </p>
         </div>
       </section>
@@ -116,63 +122,15 @@ export default function Home() {
         <div className="mx-auto md:mx-0 md:w-1/2">
           <ol className="list-disc last:pb-0">
             <li className="m-3 text-base xl:text-lg">
-              Day 1: Intro to building in web3 - tooling overview
+              Introduced our first NFT collection
             </li>
             <div className="h-6 w-20 border-l border-black dark:border-white border-dashed" />
             <li className="m-3 text-base xl:text-lg">
-              Day 2: Workshop with Austin Griffith
+              Deployed our official coin - T3
             </li>
             <div className="h-6 w-20 border-l border-black dark:border-white border-dashed" />
             <li className="m-3 text-base xl:text-lg">
-              Day 3: Writing an Ethereum smart contract
-            </li>
-            <div className="h-6 w-20 border-l border-black dark:border-white border-dashed" />
-            <li className="m-3 text-base xl:text-lg">
-              Day 5: Workshop with Nader Dabit
-            </li>
-            <div className="h-6 w-20 border-l border-black dark:border-white border-dashed" />
-            <li className="m-3 text-base xl:text-lg">
-              Day 5: Building a subgraph
-            </li>
-            <div className="h-12 w-20 border-l border-black dark:border-white border-dashed" />
-            <li className="m-3 text-base xl:text-lg">
-              Day 8: Workshop with Patrick Collins
-            </li>
-            <div className="h-12 w-20 border-l border-black dark:border-white border-dashed" />
-            <li className="m-3 text-base xl:text-lg">
-              Day 9: Develop your front-end with Ethers.js
-            </li>
-            <div className="h-10 w-20 border-l border-black dark:border-white border-dashed" />
-            <li className="m-3 text-base xl:text-lg">
-              Day 13: Workshop with Ally Haire and Dawn Kelly
-            </li>
-            <div className="h-10 w-20 border-l border-black dark:border-white border-dashed" />
-            <li className="m-3 text-base xl:text-lg">
-              Day 14: OFf-chain storage
-            </li>
-            <div className="h-10 w-20 border-l border-black dark:border-white border-dashed" />
-            <li className="m-3 text-base xl:text-lg">
-              Day 18: Workshop with Rahat
-            </li>
-            <div className="h-10 w-20 border-l border-black dark:border-white border-dashed" />
-            <li className="m-3 text-base xl:text-lg">
-              Day 19: Deploy to Polygon
-            </li>
-            <div className="h-10 w-20 border-l border-black dark:border-white border-dashed" />
-            <li className="m-3 text-base xl:text-lg">
-              Day 20: Final touches and improvements 
-            </li>
-            <div className="h-10 w-20 border-l border-black dark:border-white border-dashed" />
-            <li className="m-3 text-base xl:text-lg">
-              Day 23: Workshop with Nader Dabit 
-            </li>
-            <div className="h-10 w-20 border-l border-black dark:border-white border-dashed" />
-            <li className="m-3 text-base xl:text-lg">
-              Day 24: Demo 
-            </li>
-            <div className="h-10 w-20 border-l border-black dark:border-white border-dashed" />
-            <li className="m-3 text-base xl:text-lg">
-              Day 30: Closing ceremony
+              And more!
             </li>
             <div className="h-8 w-20 border-l border-black dark:border-white border-dashed" />
             <li className="m-3 text-base xl:text-lg">Day 30: Demo Day</li>
@@ -180,15 +138,14 @@ export default function Home() {
         </div>
         <div className="md:w-1/2 mb-8 md:mb-0">
           <h2 className="text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-poppins-bold mb-6 xl:mb-8">
-            Ramp up in 30 days
+            T3 - Our all new coin!
           </h2>
           <p className="mb-8 xl:mb-10 leading-normal text-base md:text-lg lg:text-xl leading-relaxed md:leading-relaxed lg:leading-relaxed">
             Get up to speed on blockchain development and start shipping
             projects through our{" "}
-            <strong className="font-poppins-semi-bold">30 Days of Web3</strong>{" "}
-            curriculum. After 30 days, you will have deployed fullstack
-            decentralized apps and learned to use essential web3 tools,
-            protocols, and frameworks.
+            <strong className="font-poppins-semi-bold">T3 Deployment Platform</strong>{" "}
+            through which you can deply deployed fullstack
+            decentralized apps and a lot more!
           </p>
           <a
             className="dark:hover:text-black dark:hover:bg-white hover:text-white hover:bg-black border border-black dark:border-white border-solid rounded-full text-base md:text-lg lg:text-xl px-4 py-2"
