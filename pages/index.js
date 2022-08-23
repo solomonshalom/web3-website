@@ -110,7 +110,7 @@ export default function Home() {
           </p>
            <hr className="my-8 border-t border-black dark:border-white border-solid" />
           <h3 className="mb-4 text-xl md:text-2xl font-poppins-bold">
-            &#127793; Client-Work
+            &#128296; Client-Work
           </h3>
           <p className="text-base md:text-lg lg:text-xl leading-relaxed md:leading-relaxed lg:leading-relaxed">
             We help in building, growing and maintaining your projects - no matter how big or complex your requets are, we always deliver
