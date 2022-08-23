@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>Tech3/title>
+        <title>Tech3</title>
         <meta
           name="description"
           content="Providing education, oppportunities, and funding to a new wave of web3 builders"
