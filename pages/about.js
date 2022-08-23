@@ -120,29 +120,11 @@ export default function About() {
 
         {preferedColorScheme === "light" && (
           <div className="mt-8 flex flex-wrap gap-8 justify-center">
-
-            <div className="relative w-60 h-24">
-              <Image
-                alt="The Graph Logo"
-                src="#"
-                objectFit="contain"
-                layout="fill"
-              />
-            </div>
           </div>
         )}
 
         {preferedColorScheme === "dark" && (
           <div className="mt-8 flex flex-wrap gap-8 justify-center">
-
-            <div className="relative w-60 h-24">
-              <Image
-                alt="The Graph Logo"
-                src="#"
-                objectFit="contain"
-                layout="fill"
-              />
-            </div>
           </div>
         )}
       </section>
