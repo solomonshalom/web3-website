@@ -138,7 +138,7 @@ export default function Home() {
         </div>
         <div className="md:w-1/2 mb-8 md:mb-0">
           <h2 className="text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-poppins-bold mb-6 xl:mb-8">
-            T3 - Our all new coin!
+            T3 - Our all new platform!
           </h2>
           <p className="mb-8 xl:mb-10 leading-normal text-base md:text-lg lg:text-xl leading-relaxed md:leading-relaxed lg:leading-relaxed">
             Get up to speed on blockchain development and start shipping

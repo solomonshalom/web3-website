@@ -41,7 +41,7 @@ const Member = () => {
               Our Team
             </h2>
             <p className="text-xl text-gray-200">
-              We are a community of women and non-binary developers in web3.
+              We are a community of passionate developers in web3.
             </p>
           </div>
           <ul

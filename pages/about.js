@@ -36,14 +36,14 @@ export default function About() {
       <Navbar preferedColorScheme={preferedColorScheme} />
       <header className="my-40 sm:my-44 max-w-3xl">
         <h1 className="font-poppins-bold text-3xl sm:text-5xl lg:text-6xl leading-tight mb-4">
-          Unlocking the next wave of web3 builders
+          Unlocking the next wave of web3 projects
         </h1>
         <p className="text-lg md:text-xl lg:text-2xl xl:text-3xl leading-normal xl:leading-normal mb-6 md:mb-8">
-          We’re onboarding and retaining talented, diverse developers in web3.
+          We’re a group of talented, diverse developers in web3 who can build your project and make it legendary!.
         </p>
         <Link href="/contact" passHref>
           <a className="dark:hover:text-black dark:hover:bg-white hover:text-white hover:bg-black border border-black dark:border-white border-solid rounded-full text-base md:text-lg lg:text-xl px-4 py-2">
-            Sponsor us
+            Contact Us
           </a>
         </Link>
       </header>
@@ -53,30 +53,10 @@ export default function About() {
           <p className="mb-16 text-base md:text-lg lg:text-xl leading-relaxed md:leading-relaxed lg:leading-relaxed">
             Our collective is composed of software engineers, designers, content
             creators, technical writers, managers, and founders with
-            wide-ranging experiences in tech. We span across 8 countries, 16
-            cities, and 9 timezones and counting. We are united in our passion
+            wide-ranging experiences in tech. We are united in our passion
             to decentralize the internet and to bring more diverse perspectives
             to web3.
           </p>
-        </div>
-        <div className="flex justify-end">
-          <div className="sm:w-1/2">
-            <p className="mb-8 text-base md:text-lg lg:text-xl leading-relaxed md:leading-relaxed lg:leading-relaxed">
-              We aim to support underrepresented women and non-binary developers
-              in web3 with education, opportunities, and funding. We want at
-              least 70% of our initial cohort to transition into web3 full-time
-              within a year. Learn more about our goals in our whitepaper.
-            </p>
-
-            <a
-              target="_blank"
-              href="https://womenbuildweb3.hashnode.dev/whitepaper"
-              rel="noopener noreferrer"
-              className="dark:hover:text-black dark:hover:bg-white hover:text-white hover:bg-black border border-black dark:border-white border-solid rounded-full text-base md:text-lg lg:text-xl px-4 py-2"
-            >
-              View our whitepaper
-            </a>
-          </div>
         </div>
       </section>
 
@@ -85,8 +65,7 @@ export default function About() {
           Our Values
         </h2>
         <p className="w-full sm:w-4/5 mx-auto mb-8 md:mb-12 text-center sm:max-w-2xl text-base md:text-lg lg:text-xl leading-relaxed md:leading-relaxed lg:leading-relaxed">
-          We are actively shaping our community to be a space where women and
-          non-binary developers can thrive and innovate in.
+          We are actively shaping our community to be a space where anyone, no matter the age or gender can thrive and innovate in web3.
         </p>
         <div className="md:grid md:grid-cols-3 gap-4">
           <div className="mb-8 flex justify-center">
@@ -135,34 +114,17 @@ export default function About() {
 
         <Link href="/contact" passHref>
           <a className="mx-auto dark:hover:text-black dark:hover:bg-white hover:text-white hover:bg-black border border-black dark:border-white border-solid rounded-full text-base md:text-lg lg:text-xl px-4 py-2">
-            Sponsor us
+            Invest In Us!
           </a>
         </Link>
 
         {preferedColorScheme === "light" && (
           <div className="mt-8 flex flex-wrap gap-8 justify-center">
-            <div className="relative w-60 h-24">
-              <Image
-                alt="Developer Dao Logo"
-                src="/logos/D_D-Logo.png"
-                objectFit="contain"
-                layout="fill"
-              />
-            </div>
-
-            <div className="relative w-60 h-24">
-              <Image
-                alt="Filecoin Logo"
-                src="/logos/Filecoin-Logo.png"
-                objectFit="contain"
-                layout="fill"
-              />
-            </div>
 
             <div className="relative w-60 h-24">
               <Image
                 alt="The Graph Logo"
-                src="/logos/The-Graph-Logo.png"
+                src="#"
                 objectFit="contain"
                 layout="fill"
               />
@@ -172,28 +134,11 @@ export default function About() {
 
         {preferedColorScheme === "dark" && (
           <div className="mt-8 flex flex-wrap gap-8 justify-center">
-            <div className="relative w-60 h-24">
-              <Image
-                alt="Developer Dao Logo"
-                src="/logos/D_D-logo-white.png"
-                objectFit="contain"
-                layout="fill"
-              />
-            </div>
-
-            <div className="relative w-60 h-24">
-              <Image
-                alt="Filecoin Logo"
-                src="/logos/Filecoin-logo-white.png"
-                objectFit="contain"
-                layout="fill"
-              />
-            </div>
 
             <div className="relative w-60 h-24">
               <Image
                 alt="The Graph Logo"
-                src="/logos/The-Graph-logo-white.png"
+                src="#"
                 objectFit="contain"
                 layout="fill"
               />
